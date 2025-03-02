@@ -18,6 +18,12 @@ export default function RootLayout({
     <html lang="en" className={`${GeistSans.variable}`}>
       <body>
         <TRPCReactProvider>{children}</TRPCReactProvider>
+     <footer>
+     code was written under the 
+       influence of malaria 
+       drugs, i am still sick
+       😂😂
+     </footer>
       </body>
     </html>
   );
